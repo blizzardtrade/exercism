@@ -4,10 +4,6 @@ import (
 	"fmt"
 )
 
-func main() {
-	Reverse("Hello, 世界")
-}
-
 func Reverse(input string) string {
 
 	str := []rune(input)
