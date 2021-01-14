@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println(Valid("0000 0"))
+	fmt.Println(Square(64))
 }
