@@ -5,5 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println(Square(64))
+
+	c := Clock{34, 37}
+	fmt.Println(c.Adjust())	
 }
